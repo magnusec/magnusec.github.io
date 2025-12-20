@@ -160,3 +160,60 @@ body {
     height: 20px;
     display: block;
 }
+
+
+
+
+
+
+
+/* PERFECT SOCIAL ICONS */
+.socials {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.icon {
+    width: 44px;
+    height: 44px;
+    border: 2px solid #111827;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.icon-inner {
+    width: 20px;
+    height: 20px;
+    background-color: #111827;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+}
+
+/* ICON SHAPES */
+.icon-inner.linkedin {
+    mask-image: url("linkedin.svg");
+    -webkit-mask-image: url("linkedin.svg");
+}
+
+.icon-inner.github {
+    mask-image: url("github.svg");
+    -webkit-mask-image: url("github.svg");
+}
+
+/* HOVER */
+.icon:hover {
+    background: #111827;
+}
+
+.icon:hover .icon-inner {
+    background-color: #ffffff;
+}
+
