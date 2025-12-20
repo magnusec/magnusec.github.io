@@ -131,6 +131,50 @@ body {
     fill: #ffffff;
 }
 
+
+
+
+
+/* CONTENT PAGES LAYOUT */
+.page {
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 0 24px;
+}
+
+.page h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.page h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 12px;
+}
+
+.page p {
+    font-size: 16px;
+    color: #374151;
+    margin-bottom: 16px;
+    line-height: 1.7;
+}
+
+.card {
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+
+
+
+
+
+
 /* RESPONSIVE */
 @media (max-width: 900px) {
     .hero {
