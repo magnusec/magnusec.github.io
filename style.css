@@ -136,30 +136,37 @@ body {
 
 
 
-/* SOCIAL ICON FIX */
+/* FINAL SOCIAL ICONS */
 .socials {
     display: flex;
-    align-items: center;
-    gap: 16px;
-    margin-top: 14px;
+    gap: 18px;
+    margin-top: 18px;
 }
 
-.socials .icon {
-    width: 42px;
-    height: 42px;
-    border: 1.5px solid #111827;
+.icon {
+    width: 44px;
+    height: 44px;
+    border: 2px solid #111827;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: none;
 }
 
-.socials .icon img {
+.icon svg {
     width: 20px;
     height: 20px;
-    display: block;
+    fill: #111827;
 }
+
+.icon:hover {
+    background: #111827;
+}
+
+.icon:hover svg {
+    fill: #ffffff;
+}
+
 
 
 
