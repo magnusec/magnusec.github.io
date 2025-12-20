@@ -117,3 +117,46 @@ body {
         height: 260px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SOCIAL ICON FIX */
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 14px;
+}
+
+.socials .icon {
+    width: 42px;
+    height: 42px;
+    border: 1.5px solid #111827;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.socials .icon img {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
