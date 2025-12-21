@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Research | Atharva Kasar</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<nav>
-    <strong style="color:white;">Atharva Kasar</strong>
-    <div>
+<nav class="navbar">
+    <div class="nav-left">Atharva Kasar</div>
+    <div class="nav-right">
         <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
         <a href="experience.html">Experience</a>
+        <a href="projects.html">Projects</a>
         <a href="certifications.html">Certifications</a>
         <a href="research.html">Research</a>
         <a href="skills.html">Skills</a>
@@ -19,24 +21,55 @@
     </div>
 </nav>
 
-<div class="container">
+<section class="section-hero">
     <h1>Research</h1>
+    <p>Peer-reviewed research published with IEEE</p>
+</section>
+
+<main class="page">
 
     <div class="card">
-        <h3>IEEE Research Paper – Phishing URL Detection</h3>
-        <p>
-            Published an IEEE research paper focused on detecting phishing URLs using
-            machine learning techniques.
-        </p>
-        <ul>
-            <li>Problem: Identification of malicious phishing URLs</li>
-            <li>Approach: Feature extraction and ML-based classification</li>
-            <li>Objective: Improve accuracy and reliability of phishing detection</li>
-            <li>Outcome: Demonstrated effectiveness of ML models for security applications</li>
-        </ul>
-    </div>
-</div>
+        <h2>Phishing URL Detection Using Machine Learning Algorithms</h2>
 
-<footer>© 2025 Atharva Kasar</footer>
+        <p>
+            <strong>Authors:</strong> Atharva Kasar, Anjor Rane, Deep Tandel,
+            Sumedha Bhagwat, Jyoti Kundale
+        </p>
+
+        <p>
+            <strong>Published in:</strong> 2025 International Conference on Applications
+            of Machine Intelligence and Data Analytics (ICAMIDA)
+        </p>
+
+        <p>
+            This research examines the effectiveness of multiple machine learning
+            algorithms in detecting phishing URLs used in online fraud and credential
+            theft attacks. The study evaluates Decision Tree, Support Vector Machine,
+            Random Forest, Logistic Regression, K-Nearest Neighbours, and Naïve Bayes
+            models across four different datasets.
+        </p>
+
+        <p>
+            Experimental analysis achieved detection accuracy of up to <strong>96%</strong>,
+            with Random Forest identified as the most effective model. The results
+            demonstrate how machine learning techniques can enhance proactive phishing
+            detection and improve user security in digital environments.
+        </p>
+
+        <p>
+            <strong>Conference Date:</strong> 21–22 August 2025<br>
+            <strong>Conference Location:</strong> Aurangabad, India<br>
+            <strong>DOI:</strong> 10.1109/ICAMIDA64673.2025.11208974
+        </p>
+
+        <a href="https://ieeexplore.ieee.org/document/11208974"
+           class="hero-btn"
+           target="_blank">
+            View IEEE Publication
+        </a>
+    </div>
+
+</main>
+
 </body>
 </html>
