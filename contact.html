@@ -28,26 +28,38 @@
 
 <main class="page">
 
+    <!-- EMAIL -->
     <div class="card">
-       <h2>Email</h2>
-<p>
-    For official communication, academic correspondence, or application-related queries:
-</p>
-<p><strong>atharvakasar@gmail.com</strong></p>
+        <h2>Email</h2>
+        <p>
+            For official communication, academic correspondence, or application-related queries,
+            you may contact me at:
+        </p>
 
+        <p style="font-size:18px; font-weight:600;">
+            atharvakasar@gmail.com
+        </p>
+
+        <button class="hero-btn" onclick="copyEmail()">
+            Copy Email Address
+        </button>
+
+        <p id="copy-status" style="margin-top:10px; color:#374151;"></p>
     </div>
 
+    <!-- GITHUB -->
     <div class="card">
         <h2>GitHub</h2>
         <p>
-            View my cybersecurity projects, research implementations, and technical
-            work hosted on GitHub.
+            View my cybersecurity projects, research implementations, and technical work
+            hosted on GitHub.
         </p>
         <a href="https://github.com/magnusec" target="_blank" class="hero-btn">
             View GitHub Profile
         </a>
     </div>
 
+    <!-- LINKEDIN -->
     <div class="card">
         <h2>LinkedIn</h2>
         <p>
@@ -60,6 +72,14 @@
     </div>
 
 </main>
+
+<!-- SCRIPT -->
+<script>
+function copyEmail() {
+    navigator.clipboard.writeText("atharvakasar@gmail.com");
+    document.getElementById("copy-status").innerText = "✓ Email address copied to clipboard";
+}
+</script>
 
 </body>
 </html>
