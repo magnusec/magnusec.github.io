@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Research | Atharva Kasar</title>
+    <title>Contact | Atharva Kasar</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -22,31 +22,64 @@
 </nav>
 
 <section class="section-hero">
-    <h1>Research</h1>
-    <p>Peer-reviewed work on phishing URL detection using machine learning</p>
+    <h1>Contact</h1>
+    <p>Get in touch for academic, research, or professional opportunities</p>
 </section>
 
 <main class="page">
 
+    <!-- EMAIL -->
     <div class="card">
-        <h2>Phishing URL Detection Using Machine Learning Techniques</h2>
+        <h2>Email</h2>
         <p>
-            Published in IEEE in 2025, this paper explores the application of machine learning
-            models to classify URLs as phishing or legitimate using extracted URL features.
-            The research focuses on feature engineering and classifier evaluation strategies
-            with standard supervised learning algorithms.
-        </p>
-        <p>
-            Such approaches enhance automated URL analysis by leveraging statistical and
-            behavioral features to identify deception patterns and protect users from phishing attacks.
+            For official communication, academic correspondence, or application-related queries,
+            you may contact me at:
         </p>
 
-        <a href="#" class="hero-btn" target="_blank">
-            View IEEE Paper
+        <p style="font-size:18px; font-weight:600;">
+            atharvakasar@gmail.com
+        </p>
+
+        <button class="hero-btn" onclick="copyEmail()">
+            Copy Email Address
+        </button>
+
+        <p id="copy-status" style="margin-top:10px; color:#374151;"></p>
+    </div>
+
+    <!-- GITHUB -->
+    <div class="card">
+        <h2>GitHub</h2>
+        <p>
+            View my cybersecurity projects, research implementations, and technical work
+            hosted on GitHub.
+        </p>
+        <a href="https://github.com/magnusec" target="_blank" class="hero-btn">
+            View GitHub Profile
+        </a>
+    </div>
+
+    <!-- LINKEDIN -->
+    <div class="card">
+        <h2>LinkedIn</h2>
+        <p>
+            Connect with me professionally for networking, academic discussions,
+            and industry-related updates.
+        </p>
+        <a href="https://www.linkedin.com/in/atharva-kasar-74a23b267/" target="_blank" class="hero-btn">
+            View LinkedIn Profile
         </a>
     </div>
 
 </main>
+
+<!-- SCRIPT -->
+<script>
+function copyEmail() {
+    navigator.clipboard.writeText("atharvakasar@gmail.com");
+    document.getElementById("copy-status").innerText = "✓ Email address copied to clipboard";
+}
+</script>
 
 </body>
 </html>
