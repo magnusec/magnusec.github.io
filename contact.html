@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Contact | Atharva Kasar</title>
+    <title>Research | Atharva Kasar</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -22,64 +22,54 @@
 </nav>
 
 <section class="section-hero">
-    <h1>Contact</h1>
-    <p>Get in touch for academic, research, or professional opportunities</p>
+    <h1>Research</h1>
+    <p>Peer-reviewed research published with IEEE</p>
 </section>
 
 <main class="page">
 
-    <!-- EMAIL -->
     <div class="card">
-        <h2>Email</h2>
+        <h2>Phishing URL Detection Using Machine Learning Algorithms</h2>
+
         <p>
-            For official communication, academic correspondence, or application-related queries,
-            you may contact me at:
+            <strong>Authors:</strong> Atharva Kasar, Anjor Rane, Deep Tandel,
+            Sumedha Bhagwat, Jyoti Kundale
         </p>
 
-        <p style="font-size:18px; font-weight:600;">
-            atharvakasar@gmail.com
-        </p>
-
-        <button class="hero-btn" onclick="copyEmail()">
-            Copy Email Address
-        </button>
-
-        <p id="copy-status" style="margin-top:10px; color:#374151;"></p>
-    </div>
-
-    <!-- GITHUB -->
-    <div class="card">
-        <h2>GitHub</h2>
         <p>
-            View my cybersecurity projects, research implementations, and technical work
-            hosted on GitHub.
+            <strong>Published in:</strong> 2025 International Conference on Applications
+            of Machine Intelligence and Data Analytics (ICAMIDA)
         </p>
-        <a href="https://github.com/magnusec" target="_blank" class="hero-btn">
-            View GitHub Profile
-        </a>
-    </div>
 
-    <!-- LINKEDIN -->
-    <div class="card">
-        <h2>LinkedIn</h2>
         <p>
-            Connect with me professionally for networking, academic discussions,
-            and industry-related updates.
+            This research examines the effectiveness of multiple machine learning
+            algorithms in detecting phishing URLs used in online fraud and credential
+            theft attacks. The study evaluates Decision Tree, Support Vector Machine,
+            Random Forest, Logistic Regression, K-Nearest Neighbours, and Naïve Bayes
+            models across four different datasets.
         </p>
-        <a href="https://www.linkedin.com/in/atharva-kasar-74a23b267/" target="_blank" class="hero-btn">
-            View LinkedIn Profile
+
+        <p>
+            Experimental analysis achieved detection accuracy of up to <strong>96%</strong>,
+            with Random Forest identified as the most effective model. The results
+            demonstrate how machine learning techniques can enhance proactive phishing
+            detection and improve user security in digital environments.
+        </p>
+
+        <p>
+            <strong>Conference Date:</strong> 21–22 August 2025<br>
+            <strong>Conference Location:</strong> Aurangabad, India<br>
+            <strong>DOI:</strong> 10.1109/ICAMIDA64673.2025.11208974
+        </p>
+
+        <a href="https://ieeexplore.ieee.org/document/11208974"
+           class="hero-btn"
+           target="_blank">
+            View IEEE Publication
         </a>
     </div>
 
 </main>
-
-<!-- SCRIPT -->
-<script>
-function copyEmail() {
-    navigator.clipboard.writeText("atharvakasar@gmail.com");
-    document.getElementById("copy-status").innerText = "✓ Email address copied to clipboard";
-}
-</script>
 
 </body>
 </html>
