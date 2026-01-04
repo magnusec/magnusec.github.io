@@ -102,6 +102,16 @@ body {
     gap: 18px;
 }
 
+
+
+
+/* SOCIAL ICONS — FINAL FINAL FIX */
+
+.socials {
+    display: flex;
+    gap: 18px;
+}
+
 .socials a {
     width: 46px;
     height: 46px;
@@ -112,16 +122,23 @@ body {
     justify-content: center;
 }
 
+/* Default icon size */
 .socials svg {
     width: 20px;
     height: 20px;
     fill: #ffffff;
 }
 
+/* GitHub icon — make it visually larger */
 .socials a.github svg {
-    width: 18px;
-    height: 18px;
+    width: 22px;   /* ← THIS is the key change */
+    height: 22px;
 }
+
+
+
+
+
 
 /* RESPONSIVE */
 @media (max-width: 900px) {
